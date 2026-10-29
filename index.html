@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Run & Escape</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="menu">
+
+<h1>RUN & ESCAPE</h1>
+
+<p>Escape before the enemy catches you!</p>
+
+<p>
+⬅ ➡ Move<br>
+⬆ Jump<br>
+⬇ Slide
+</p>
+
+<button id="start">
+START GAME
+</button>
+
+</div>
+
+
+<canvas id="game" width="1000" height="500"></canvas>
+
+
+<div id="hud">
+
+<span id="score">
+Score: 0
+</span>
+
+<span id="life">
+❤️ Lives: 3
+</span>
+
+</div>
+
+
+<div id=win>
+
+
+<h1>YOU ESCAPED!</h1>
+
+<p>
+Your companions blocked the cave!
+</p>
+
+<br>
+Run & Escape
+</div>
+
+<br>
+Created by:
+Kriss Ann Nanalabe
+Annalou Pat
+Florence Jay Cabatuan
+</br>
+
+<button onclick="location.reload()">
+PLAY AGAIN
+</button>
+
+</div>
+
+
+<div id="lose">
+
+<h1>CAUGHT!</h1>
+
+<button onclick="location.reload()">
+TRY AGAIN
+</button>
+
+</div>
+
+
+<script src="game.js"></script>
+
+</body>
+</html>
